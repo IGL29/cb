@@ -1,0 +1,10 @@
+node_modules
+.eslintignore
+.eslintrc.js
+.gitignore
+.git
+.prettierrc
+Dockerfile
+README.md
+stats.cjs
+

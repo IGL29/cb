@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+
+/* Roboto */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+    url('./fonts/roboto/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+    url('./fonts/roboto/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* Ubuntu */
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Light.woff2') format('woff2'),
+    url('./fonts/ubuntu/Ubuntu-Light.woff') format('woff');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Regular.woff2') format('woff2'),
+    url('./fonts/ubuntu/Ubuntu-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Medium.woff2') format('woff2'),
+    url('./fonts/ubuntu/Ubuntu-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+    url('./fonts/ubuntu/Ubuntu-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+    url('./fonts/ubuntu/Ubuntu-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Work-Sans */
+
+@font-face {
+  font-family: 'Work-Sans';
+  src: url('./fonts/work-sans/WorkSans-Light.woff2') format('woff2'),
+    url('./fonts/work-sans/WorkSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work-Sans';
+  src: url('./fonts/work-sans/WorkSans-Regular.woff2') format('woff2'),
+    url('./fonts/work-sans/WorkSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work-Sans';
+  src: url('./fonts/work-sans/WorkSans-Medium.woff2') format('woff2'),
+    url('./fonts/work-sans/WorkSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work-Sans';
+  src: url('./fonts/work-sans/WorkSans-SemiBold.woff2') format('woff2'),
+    url('./fonts/work-sans/WorkSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Work-Sans';
+  src: url('./fonts/work-sans/WorkSans-Bold.woff2') format('woff2'),
+    url('./fonts/work-sans/WorkSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    font-family: 'Ubuntu', system-ui, sans-serif;
+  }
+  html,
+  body,
+  div[id='app'] {
+    height: 100%;
+  }
+
+  * {
+    outline: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@layer utilites {
+  .mirror-center {
+    transform: rotateY(180deg) translateX(-50%);
+  }
+}
